@@ -14,11 +14,12 @@ var con = mysql.createConnection({
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
-    var sql = "INSERT INTO questions (question_text, answer_id) VALUES('this is a test of the questions thing', 1)";
-    con.query(sql, function(err, result){
+    //var sql = "INSERT INTO questions (question_text, answer_id) VALUES('this is a test of the questions thing', 1)";
+    /*con.query(sql, function(err, result){
         if(err) throw err;
         console.log("SQL Executed");
     })
+    */
     });
 
 app.use(express.static(__dirname + '/public'));
