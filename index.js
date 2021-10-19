@@ -41,3 +41,11 @@ app.listen(8080);
 
 //cons
 //close to original show
+
+//MySQL for DB 
+//Express.js
+//React.js
+//Node.js  --Install manually 
+
+//Codecademy.org
+//Frecodecamp.org
