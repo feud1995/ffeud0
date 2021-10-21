@@ -1,0 +1,15 @@
+h1 {
+    color:skyblue;
+    background-color:lightslategrey;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+}
+
+.center {
+    display: grid;  
+    place-items: center;
+}
